@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-    <img src="./2024/adventjs-logo.png" width="625">
+    <img src="./adventjs-logo.png" width="625">
 </p>
 
 <h2>
