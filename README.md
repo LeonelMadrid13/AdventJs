@@ -42,6 +42,7 @@
 |    10     | Challenge #10: 👩‍💻 The elfish assembler       |     🟠     |    **5**     | [Show](./2024/day10) |
 |    11     | Challenge #11: 🏴‍☠️ Filenames encoded          |     🟢     |    **5**     | [Show](./2024/day11) |
 |    12     | Challenge #12: 💵 How much does the tree cost? |     🟢     |    **5**     | [Show](./2024/day12) |
+|    13     | Challenge #13: 🤖 Is the robot back?           |     🔴     |    **5**     | [Show](./2024/day13) |
 | **Total** |                                                |   **/**    |    **45**    |        **/**         |
 
 <h2>
