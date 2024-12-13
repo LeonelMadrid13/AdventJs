@@ -43,7 +43,7 @@
 |    11     | Challenge #11: 🏴‍☠️ Filenames encoded          |     🟢     |    **5**     | [Show](./2024/day11) |
 |    12     | Challenge #12: 💵 How much does the tree cost? |     🟢     |    **5**     | [Show](./2024/day12) |
 |    13     | Challenge #13: 🤖 Is the robot back?           |     🔴     |    **5**     | [Show](./2024/day13) |
-| **Total** |                                                |   **/**    |    **45**    |        **/**         |
+| **Total** |                                                |   **/**    |    **65**    |        **/**         |
 
 <h2>
     License
