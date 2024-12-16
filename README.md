@@ -43,7 +43,10 @@
 |    11     | Challenge #11: 🏴‍☠️ Filenames encoded          |     🟢     |    **5**     | [Show](./2024/day11) |
 |    12     | Challenge #12: 💵 How much does the tree cost? |     🟢     |    **5**     | [Show](./2024/day12) |
 |    13     | Challenge #13: 🤖 Is the robot back?           |     🔴     |    **5**     | [Show](./2024/day13) |
-| **Total** |                                                |   **/**    |    **65**    |        **/**         |
+|    14     | Challenge #14: 🦌 Weaving the reno             |     🟢     |    **5**     | [Show](./2024/day14) |
+|    15     | Challenge #15: ✏️ Drawing tables               |     🟢     |    **5**     | [Show](./2024/day15) |
+|    16     | Challenge #16: ❄️ Cleaning the snow path       |     🟢     |    **5**     | [Show](./2024/day16) |
+| **Total** |                                                |   **/**    |    **80**    |        **/**         |
 
 <h2>
     License
