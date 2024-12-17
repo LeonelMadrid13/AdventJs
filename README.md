@@ -46,7 +46,7 @@
 |    14     | Challenge #14: 🦌 Weaving the reno             |     🟢     |    **5**     | [Show](./2024/day14) |
 |    15     | Challenge #15: ✏️ Drawing tables               |     🟢     |    **5**     | [Show](./2024/day15) |
 |    16     | Challenge #16: ❄️ Cleaning the snow path       |     🟢     |    **5**     | [Show](./2024/day16) |
-|    16     | Challenge #17: 💣 Grinch's bombs               |     🟠     |    **5**     | [Show](./2027/day17) |
+|    16     | Challenge #17: 💣 Grinch's bombs               |     🟠     |    **5**     | [Show](./2024/day17) |
 | **Total** |                                                |   **/**    |    **85**    |        **/**         |
 
 <h2>
