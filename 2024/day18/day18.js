@@ -4,35 +4,35 @@
  * @returns {{ name: string, address: string } | null}
  */
 function findInAgenda(agenda, phone) {
-  const lines = agenda.split("\n");
-  const phoneRegex = /\+\d{1,2}-\d{3}-\d{3}-\d{3}/;
-  const nameRegex = /<([^>]+)>/;
 
-  const lineMap = lines.flatMap((line) => {
-    const phoneMatch = line.match(phoneRegex);
-    const listPhone = phoneMatch[0];
-    const nameMatch = line.match(nameRegex);
-    const listName = nameMatch[0];
-    const name = nameMatch[1];
+  const lines = agenda.split('\n')
+  let counter = 0
+  
+  const nameRegex = new RegExp(/(?<=<)(?:.*)(?=>)/)
+  const phoneRegex = new RegExp(/(?<=^|\s)\+\d{1,2}(?:-\d*){3}(?=$|\s)/)
+  const replaceRegex = new RegExp(/<(?:.*)>|(?<=^|\s)\+\d{1,2}(?:-\d*){3}(?=$|\s)/g)
+  
+  const result = { name: '', address: '' }
 
-    if (phoneMatch) {
-      if (listPhone.includes(phone)) {
-        const lineNoPhone = line.replace(listPhone, "");
-        const lineNoName = lineNoPhone.replace(listName, "");
-        const address = lineNoName.trim();
-        return { name, address };
-      }
-    }
-    return null;
-  });
+  for (let i = 0; i < lines.length; i++) {
+    
+    if (counter > 1) return null
+    const data = lines[i]
+    const dataPhone = `${data.match(phoneRegex)?.[0]}`
 
-  const matches = lineMap.filter((line) => line);
+    if (!dataPhone.match(phone)) continue
+    const name = `${data.match(nameRegex)?.[0]}`
+    const address = data.replaceAll(replaceRegex, '').trim()
 
-  if (matches.length === 1) {
-    return matches[0];
+    result.name = name
+    result.address = address
+    counter++
   }
-  return null;
+
+  return counter === 1 ? result : null
 }
+
+
 
 const agenda = `+34-600-123-456 Calle Gran Via 12 <Juan Perez>
 Plaza Mayor 45 Madrid 28013 <Maria Gomez> +34-600-987-654
