@@ -47,7 +47,7 @@
 |    15     | Challenge #15: ✏️ Drawing tables               |     🟢     |    **5**     | [Show](./2024/day15) |
 |    16     | Challenge #16: ❄️ Cleaning the snow path       |     🟢     |    **5**     | [Show](./2024/day16) |
 |    17     | Challenge #17: 💣 Grinch's bombs               |     🟠     |    **5**     | [Show](./2024/day17) |
-|    18     | Challenge #18: 📇 Santa's Magic Agenda         |     🟠     |    **4**     | [Show](./2024/day18) |
+|    18     | Challenge #18: 📇 Santa's Magic Agenda         |     🔴     |    **4**     | [Show](./2024/day18) |
 | **Total** |                                                |   **/**    |    **89**    |        **/**         |
 
 <h2>
