@@ -1,6 +1,10 @@
 {
   "tasks": {
-    "dev": "deno run --watch"
+    "run_day": "deno run --watch --allow-run --allow-read run_day.ts"
+  },
+  "permissions": {
+    "read": true,
+    "run": true
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"

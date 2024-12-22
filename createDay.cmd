@@ -19,12 +19,12 @@ if not exist "%year%" (
     )
 )
 
-:: Prompt the user for the folder name
-set /p folderName="Enter the folder name: "
+:: Prompt the user for the day number
+set /p folderName="Enter the day number: "
 
-:: Check if the folder name is empty
+:: Check if the day number is empty
 if "%folderName%"=="" (
-    echo Folder name cannot be empty!
+    echo Day number cannot be empty!
     exit /b
 )
 
@@ -39,17 +39,17 @@ if not exist "%targetFolder%" (
 :: Navigate into the target folder
 cd "%targetFolder%"
 
-:: Create the JavaScript file with the same name as the folder
-echo "day%folderName%" > "day%folderName%.js"
+:: Create the JavaScript file named index.js
+echo // Script for day%folderName% > "index.js"
 
-:: Create a README.md file
+:: Create a README.md file with a JavaScript code block
 (
     echo ```javascript
-    echo "day%folderName%"
+    echo // Content for day%folderName%
     echo ```
 ) > README.md
 
 :: Success message
-echo Folder "%targetFolder%" with a JavaScript file and README.md has been created successfully!
+echo Folder "%targetFolder%" with index.js and README.md has been created successfully!
 
 endlocal
