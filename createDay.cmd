@@ -39,17 +39,27 @@ if not exist "%targetFolder%" (
 :: Navigate into the target folder
 cd "%targetFolder%"
 
-:: Create the JavaScript file named index.js
-echo // Script for day%folderName% > "index.js"
+:: Create the TypeScript file named index.ts
+echo // Script for day%folderName% > "index.ts"
 
-:: Create a README.md file with a JavaScript code block
-(
-    echo ```javascript
-    echo // Content for day%folderName%
-    echo ```
-) > README.md
+:: Run the Deno scraper to generate README.md
+echo Fetching challenge data from adventjs.dev...
+deno run --allow-net ..\..\adventjs-scraper.ts %year% %folderName% > README.md
+
+:: Check if scraper was successful
+if %ERRORLEVEL% NEQ 0 (
+    echo Failed to fetch challenge data. Creating fallback README.md...
+    (
+        echo # Challenge Day %folderName%
+        echo.
+        echo ```javascript
+        echo // Content for day%folderName%
+        echo ```
+    ) > README.md
+)
 
 :: Success message
-echo Folder "%targetFolder%" with index.js and README.md has been created successfully!
+echo Folder "%targetFolder%" with index.ts and README.md has been created successfully!
+echo cd %targetFolder%
 
 endlocal
