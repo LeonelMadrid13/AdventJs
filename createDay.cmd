@@ -1,8 +1,18 @@
 @echo off
 setlocal
 
-:: Prompt the user for the year
-set /p year="Enter the year: "
+:: Check for help flag
+if "%~1"=="-h" goto :help
+if "%~1"=="--help" goto :help
+
+:: Check if arguments are provided
+set "year=%~1"
+set "folderName=%~2"
+
+:: If year is not provided as argument, prompt the user
+if "%year%"=="" (
+    set /p year="Enter the year: "
+)
 
 :: Check if the year is empty
 if "%year%"=="" (
@@ -19,8 +29,10 @@ if not exist "%year%" (
     )
 )
 
-:: Prompt the user for the day number
-set /p folderName="Enter the day number: "
+:: If day is not provided as argument, prompt the user
+if "%folderName%"=="" (
+    set /p folderName="Enter the day number: "
+)
 
 :: Check if the day number is empty
 if "%folderName%"=="" (
@@ -43,6 +55,7 @@ cd "%targetFolder%"
 echo // Script for day%folderName% > "index.ts"
 
 :: Run the Deno scraper to generate README.md
+echo running script for %targetFolder%
 echo Fetching challenge data from adventjs.dev...
 deno run --allow-net ..\..\adventjs-scraper.ts %year% %folderName% > README.md
 
@@ -63,3 +76,23 @@ echo Folder "%targetFolder%" with index.ts and README.md has been created succes
 echo cd %targetFolder%
 
 endlocal
+goto :eof
+
+:help
+echo Usage: createday.cmd [year] [day]
+echo.
+echo Creates a folder structure for AdventJS challenges and fetches challenge data.
+echo.
+echo Arguments:
+echo   year    The year of the challenge (e.g., 2025)
+echo   day     The day number of the challenge (e.g., 1)
+echo.
+echo Examples:
+echo   createday.cmd              Interactive mode - prompts for year and day
+echo   createday.cmd 2025         Prompts only for day
+echo   createday.cmd 2025 1       Creates folder 2025\day1 directly
+echo.
+echo Options:
+echo   -h, --help                 Display this help message
+echo.
+exit /b
