@@ -17,7 +17,7 @@ if (!day) {
 const folderName = `day${day}`;
 
 // Construct the path to the index.js file
-const filePath = `${year}/${folderName}/index.js`;
+const filePath = `${year}/${folderName}/index.ts`;
 
 // Check if the file exists
 try {
@@ -32,7 +32,7 @@ try {
 }
 
 // Construct the command to run the file
-const command = `deno run ${filePath} ${scriptArgs.join(" ")}`;
+const command = `deno run --allow-read --allow-run ${filePath} ${scriptArgs.join(" ")}`;
 
 // Run the index.js file with Deno and pass additional arguments
 try {
