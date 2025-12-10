@@ -1,8 +1,8 @@
-type Board = string;
-type Moves = string;
-type Result = "fail" | "crash" | "success";
+export type Board = string;
+export type Moves = string;
+export type Result = "fail" | "crash" | "success";
 
-function moveReno(board: Board, moves: Moves): Result {
+export function moveReno(board: Board, moves: Moves): Result {
   const boardArr = board.split("\n").filter(row => row.length > 0);
   
   // Encontrar posición del reno

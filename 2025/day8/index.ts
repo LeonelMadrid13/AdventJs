@@ -1,4 +1,4 @@
-function findUniqueToy(toy: string): string {
+export function findUniqueToy(toy: string): string {
     const toyArr: string[] = toy.split('')
     let charCount: { [key: string]: number } = {}
 

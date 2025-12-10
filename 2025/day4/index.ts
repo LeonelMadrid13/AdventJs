@@ -1,4 +1,4 @@
-function decodeSantaPin(code: string): string | null {
+export function decodeSantaPin(code: string): string | null {
   // code here
   const blocks = code.match(/\[([^\]]+)\]/g);
   

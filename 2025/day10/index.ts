@@ -1,5 +1,5 @@
 // Script for day10 
-function maxDepth (s: string): number {
+export function maxDepth (s: string): number {
   let currentDepth = 0;
   let maxDepthFound = 0;
   

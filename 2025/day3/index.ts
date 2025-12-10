@@ -1,4 +1,4 @@
-function drawGift(size: number, symbol: string): string {
+export function drawGift(size: number, symbol: string): string {
   // Code here
   if (size < 2 ) return '';
   const top : string = symbol.repeat(size) + '\n'

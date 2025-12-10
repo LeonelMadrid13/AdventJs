@@ -1,5 +1,5 @@
 // Script for day7 
-function drawTree(height: number, ornament: string, frequency: number): string {
+export function drawTree(height: number, ornament: string, frequency: number): string {
   // Code here
     const treeLines: string[] = []
     const width = height * 2 - 1

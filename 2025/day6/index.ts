@@ -1,7 +1,7 @@
 // Script for day6 
-type Glove = { hand: 'L' | 'R'; color: string }
+export type Glove = { hand: 'L' | 'R'; color: string }
 
-function matchGloves(gloves: Glove[]): string[] {
+export function matchGloves(gloves: Glove[]): string[] {
   // Code here
   const glovesMap: Record<string, { L: number; R: number }> = {}
     for (const glove of gloves) {

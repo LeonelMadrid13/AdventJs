@@ -1,4 +1,4 @@
-function manufactureGifts( giftsToProduce: Array<{ toy: string, quantity: number }>): string[] {
+export function manufactureGifts( giftsToProduce: Array<{ toy: string, quantity: number }>): string[] {
   // Code here
     let gifts = [];
     for(let gift of giftsToProduce){
