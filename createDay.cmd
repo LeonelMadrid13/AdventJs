@@ -40,6 +40,12 @@ if "%folderName%"=="" (
     exit /b
 )
 
+:: >>> ADD ZERO-PADDING HERE <<<
+set "paddedDay=0%folderName%"
+set "paddedDay=%paddedDay:~-2%"
+set "folderName=%paddedDay%"
+:: >>> END ZERO-PADDING <<<
+
 :: Create the project folder inside the year folder
 set "targetFolder=%year%\day%folderName%"
 mkdir "%targetFolder%"
@@ -90,9 +96,9 @@ echo.
 echo Examples:
 echo   createday.cmd              Interactive mode - prompts for year and day
 echo   createday.cmd 2025         Prompts only for day
-echo   createday.cmd 2025 1       Creates folder 2025\day1 directly
+echo   createday.cmd 2025 1       Creates folder 2025\day01 directly
 echo.
 echo Options:
 echo   -h, --help                 Display this help message
 echo.
-exit /b
+exit
