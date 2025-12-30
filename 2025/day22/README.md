@@ -1,5 +1,7 @@
 # Reto #22
 
+## Dificultad: Dificil
+
 Papá Noel 🎅 está probando un nuevo **simulador de trineo** dentro de un laberinto en el taller. El laberinto se representa como una matriz de caracteres.
 
 Tu tarea es implementar una función que determine si es posible llegar a la salida (`E`) partiendo desde la posición inicial (`S`).

@@ -1,5 +1,7 @@
 # Reto #4
 
+## Dificultad: Media
+
 Los elfos han encontrado el **código cifrado** que protege la puerta del taller de Santa 🔐. El PIN tiene **4 dígitos**, y está escondido dentro de bloques como estos:
 
 ```javascript

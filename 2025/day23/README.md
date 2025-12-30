@@ -1,5 +1,7 @@
 # Reto #23
 
+## Dificultad: Media
+
 Papá Noel 🎅 tiene que repartir regalos en un pueblo representado como un **mapa en cuadrícula**.
 
 Cada celda del mapa puede ser:

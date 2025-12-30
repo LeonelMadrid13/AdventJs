@@ -1,5 +1,7 @@
 # Reto #20
 
+## Dificultad: Facil
+
 En el taller de Santa, los elfos están guardando regalos 🎁 en un **almacén vertical**. Los regalos se dejan caer uno a uno por una columna y se van apilando.
 
 El almacén es una matriz con `#` regalos y `.` espacios vacíos. Debes crear una función `dropGifts` que reciba el estado del almacén y un array con las columnas donde se dejan caer los regalos.

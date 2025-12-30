@@ -1,5 +1,7 @@
 # Reto #21
 
+## Dificultad: Media
+
 ¡El almacén vertical de Santa se ha modernizado! Ahora, además de apilar los regalos, hay un robot 🤖 en el almacen que recoje los regalos si hay una fila completa.
 
 El almacén es una matriz con `#` regalos y `.` espacios vacíos. Debes crear una función `clearGifts` que reciba el estado del almacén y un array con las columnas donde se dejan caer los regalos.

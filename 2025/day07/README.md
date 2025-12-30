@@ -1,5 +1,7 @@
 # Reto #7
 
+## Dificultad: Media
+
 ¡Es hora de decorar el **árbol de Navidad** 🎄! Escribe una función que reciba:
 
 - `height` → la altura del árbol (número de filas).

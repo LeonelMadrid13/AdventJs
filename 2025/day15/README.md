@@ -1,5 +1,7 @@
 # Reto #15
 
+## Dificultad: Media
+
 **Al Polo Norte ha llegado ChatGPT** y el elfo Sam Elfman está trabajando en una aplicación de administración de regalos y niños.
 
 Para mejorar la presentación, quiere crear una función `drawTable` que reciba un **array de objetos** y lo convierta en una **tabla de texto**.

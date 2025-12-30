@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-    <img src="../adventjs-logo.png" width="625">
+    <img src="./adventjs-logo.png" width="625">
 </p>
 
 <h2>
@@ -30,25 +30,33 @@
 
 |     #     | Challenge                                      | Difficulty | Stars earned |     Description      |
 | :-------: | ---------------------------------------------- | :--------: | :----------: | :------------------: |
-|    01     | Challenge #1: 🎁 First gift repeated!          |     🟢     |    **5**     | [Show](./2024/day1)  |
-|    02     | Challenge #2: 🖼️ Framing names                 |     🟢     |    **5**     | [Show](./2024/day2)  |
-|    03     | Challenge #3: 🏗️ Organizing the inventory      |     🟢     |    **5**     | [Show](./2024/day3)  |
-|    04     | Challenge #4: 🎄 Decorating the Christmas tree |     🟠     |    **5**     | [Show](./2024/day4)  |
-|    05     | Challenge #5: 👞 Shoe pairing                  |     🟢     |    **5**     | [Show](./2024/day5)  |
-|    06     | Challenge #6: 📦 Is the gift inside the box?   |     🟠     |    **5**     | [Show](./2024/day6)  |
-|    07     | Challenge #7: 👹 The Grinch's attack           |     🟠     |    **5**     | [Show](./2024/day7)  |
-|    08     | Challenge #8: 🦌 The reno race                 |     🟢     |    **5**     | [Show](./2024/day8)  |
-|    09     | Challenge #9: 🚂 The magic train               |     🟠     |    **5**     | [Show](./2024/day9)  |
-|    10     | Challenge #10: 👩‍💻 The elfish assembler       |     🟠     |    **5**     | [Show](./2024/day10) |
-|    11     | Challenge #11: 🏴‍☠️ Filenames encoded          |     🟢     |    **5**     | [Show](./2024/day11) |
-|    12     | Challenge #12: 💵 How much does the tree cost? |     🟢     |    **5**     | [Show](./2024/day12) |
-|    13     | Challenge #13: 🤖 Is the robot back?           |     🔴     |    **5**     | [Show](./2024/day13) |
-|    14     | Challenge #14: 🦌 Weaving the reno             |     🟢     |    **5**     | [Show](./2024/day14) |
-|    15     | Challenge #15: ✏️ Drawing tables               |     🟢     |    **5**     | [Show](./2024/day15) |
-|    16     | Challenge #16: ❄️ Cleaning the snow path       |     🟢     |    **5**     | [Show](./2024/day16) |
-|    17     | Challenge #17: 💣 Grinch's bombs               |     🟠     |    **5**     | [Show](./2024/day17) |
-|    18     | Challenge #18: 📇 Santa's Magic Agenda         |     🔴     |    **5**     | [Show](./2024/day18) |
-| **Total** |                                                |   **/**    |    **90**    |        **/**         |
+|    01     | Challenge 1                                    |     🟢     |    **1**        | [Show](./2025/day1)  |
+|    02     | Challenge 2                                    |     🟢     |    **1**        | [Show](./2025/day2)  |
+|    03     | Challenge 3                                    |     🟢     |    **1**        | [Show](./2025/day3)  |
+|    04     | Challenge 4                                    |     🟢     |    **1**        | [Show](./2025/day4)  |
+|    05     | Challenge 5                                    |     🟢     |    **1**        | [Show](./2025/day5)  |
+|    06     | Challenge 6                                    |     🟢     |    **1**        | [Show](./2025/day6)  |
+|    07     | Challenge 7                                    |     🟢     |    **1**        | [Show](./2025/day7)  |
+|    08     | Challenge 8                                    |     🟢     |    **1**        | [Show](./2025/day8)  |
+|    09     | Challenge 9                                    |     🟢     |    **1**        | [Show](./2025/day9)  |
+|    10     | Challenge 10                                   |     🟢     |    **1**        | [Show](./2025/day10) |
+|    11     | Challenge 11                                   |     🟢     |    **1**        | [Show](./2025/day11) |
+|    12     | Challenge 12                                   |     🟢     |    **1**        | [Show](./2025/day12) |
+|    13     | Challenge 13                                   |     🟢     |    **1**        | [Show](./2025/day13) |
+|    14     | Challenge 14                                   |     🟢     |    **1**        | [Show](./2025/day14) |
+|    15     | Challenge 15                                   |     🟢     |    **1**        | [Show](./2025/day15) |
+|    16     | Challenge 16                                   |     🟢     |    **1**        | [Show](./2025/day16) |
+|    17     | Challenge 17                                   |     🟢     |    **1**        | [Show](./2025/day17) |
+|    18     | Challenge 18                                   |     🟢     |    **1**        | [Show](./2025/day18) |
+|    19     | Challenge 19                                   |     🟢     |    **1**        | [Show](./2025/day19) |
+|    20     | Challenge 20                                   |     🟢     |    **1**        | [Show](./2025/day20) |
+|    21     | Challenge 21                                   |     🟢     |    **1**        | [Show](./2025/day21) |
+|    22     | Challenge 22                                   |     🟢     |    **1**        | [Show](./2025/day22) |
+|    23     | Challenge 23                                   |     🟢     |    **1**        | [Show](./2025/day23) |
+|    24     | Challenge 24                                   |     🟢     |    **1**        | [Show](./2025/day24) |
+|    25     | Challenge 25                                   |     🟢     |    **1**        | [Show](./2025/day25) |
+| **Total** |                                                |   **/**    |    **25**    |        **/**         |
+
 
 <h2>
     License
@@ -63,3 +71,4 @@
 <p>
     Thanks to <a href="https://www.linkedin.com/in/midudev/" target="_blank">Miguel Ángel Durán</a> to develop <a href="https://adventjs.dev/" target="_blank">AdventJS<a>.
 </p>
+

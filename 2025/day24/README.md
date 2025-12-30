@@ -1,5 +1,7 @@
 # Reto #24
 
+## Dificultad: Media
+
 En el Polo Norte, los elfos tienen **dos árboles binarios mágicos que generan energía** 🌲🌲 para mantener encendida la estrella navideña ⭐️. Sin embargo, para que funcionen correctamente, los árboles deben estar en perfecta sincronía **como espejos 🪞.**
 
 **Dos árboles binarios son espejos si:**

@@ -1,5 +1,7 @@
 # Reto #19
 
+## Dificultad: Facil
+
 ¡El GPS del trineo se ha vuelto loco! 😱 Papá Noel tiene los **tramos de su viaje**, pero están todos desordenados.
 
 Tu misión es **reconstruir la ruta completa** desde el origen hasta el destino final.

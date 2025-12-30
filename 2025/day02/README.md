@@ -1,5 +1,7 @@
 # Reto #2
 
+## Dificultad: Facil
+
 La fábrica de Santa ha empezado a recibir la **lista de producción** de juguetes.
 
 Cada línea indica **qué juguete** hay que fabricar y **cuántas unidades**.

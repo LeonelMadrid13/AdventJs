@@ -1,5 +1,7 @@
 # Reto #14
 
+## Dificultad: Facil
+
 En el Polo Norte, los elfos han simplificado su sistema de almacenamiento para evitar errores.
 
 Ahora guardan los regalos en un **objeto mágico con profundidad limitada**, donde **cada valor aparece una sola vez**.

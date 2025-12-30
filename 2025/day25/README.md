@@ -1,5 +1,7 @@
 # Reto #25
 
+## Dificultad: Media
+
 ¡Ya hemos repartido todos los regalos! De vuelta al taller, ya comienzan los preparativos para el año que viene.
 
 Un elfo genio está creando un lenguaje de programación mágico 🪄, que ayudará a simplificar la entrega de regalos a los niños en 2025.

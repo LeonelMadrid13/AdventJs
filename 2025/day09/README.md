@@ -1,5 +1,7 @@
 # Reto #9
 
+## Dificultad: Dificil
+
 Los elfos han construido un **reno 🦌 robot aspirador** (`@`) para limpiar un poco el taller de cara a las navidades.
 
 El reno se mueve sobre un tablero para **recoger cosas del suelo** (`*`) y debe **evitar obstáculos** (`#`).

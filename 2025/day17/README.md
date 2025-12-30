@@ -1,5 +1,7 @@
 # Reto #17
 
+## Dificultad: Facil
+
 En el Polo Norte han montado un **panel de luces navideñas** 🎄✨ para decorar el taller. Cada luz puede estar encendida con un color o apagada.
 
 El panel se representa como una **matriz** donde cada celda puede ser:
