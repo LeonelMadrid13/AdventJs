@@ -25,30 +25,13 @@
 </p>
 
 <h2>
-    Challenges
+    Year
 </h2>
 
 |     #     | Challenge                                      | Difficulty | Stars earned |     Description      |
 | :-------: | ---------------------------------------------- | :--------: | :----------: | :------------------: |
-|    01     | Challenge #1: 🎁 First gift repeated!          |     🟢     |    **5**     | [Show](./2024/day1)  |
-|    02     | Challenge #2: 🖼️ Framing names                 |     🟢     |    **5**     | [Show](./2024/day2)  |
-|    03     | Challenge #3: 🏗️ Organizing the inventory      |     🟢     |    **5**     | [Show](./2024/day3)  |
-|    04     | Challenge #4: 🎄 Decorating the Christmas tree |     🟠     |    **5**     | [Show](./2024/day4)  |
-|    05     | Challenge #5: 👞 Shoe pairing                  |     🟢     |    **5**     | [Show](./2024/day5)  |
-|    06     | Challenge #6: 📦 Is the gift inside the box?   |     🟠     |    **5**     | [Show](./2024/day6)  |
-|    07     | Challenge #7: 👹 The Grinch's attack           |     🟠     |    **5**     | [Show](./2024/day7)  |
-|    08     | Challenge #8: 🦌 The reno race                 |     🟢     |    **5**     | [Show](./2024/day8)  |
-|    09     | Challenge #9: 🚂 The magic train               |     🟠     |    **5**     | [Show](./2024/day9)  |
-|    10     | Challenge #10: 👩‍💻 The elfish assembler       |     🟠     |    **5**     | [Show](./2024/day10) |
-|    11     | Challenge #11: 🏴‍☠️ Filenames encoded          |     🟢     |    **5**     | [Show](./2024/day11) |
-|    12     | Challenge #12: 💵 How much does the tree cost? |     🟢     |    **5**     | [Show](./2024/day12) |
-|    13     | Challenge #13: 🤖 Is the robot back?           |     🔴     |    **5**     | [Show](./2024/day13) |
-|    14     | Challenge #14: 🦌 Weaving the reno             |     🟢     |    **5**     | [Show](./2024/day14) |
-|    15     | Challenge #15: ✏️ Drawing tables               |     🟢     |    **5**     | [Show](./2024/day15) |
-|    16     | Challenge #16: ❄️ Cleaning the snow path       |     🟢     |    **5**     | [Show](./2024/day16) |
-|    17     | Challenge #17: 💣 Grinch's bombs               |     🟠     |    **5**     | [Show](./2024/day17) |
-|    18     | Challenge #18: 📇 Santa's Magic Agenda         |     🔴     |    **5**     | [Show](./2024/day18) |
-| **Total** |                                                |   **/**    |    **90**    |        **/**         |
+|    01     | 2024        |     🟢     |         | [Show](./2024/)  |
+|    02     | 2025        |     🟢     |         | [Show](./2025/)  |
 
 <h2>
     License
