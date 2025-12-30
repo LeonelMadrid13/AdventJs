@@ -1,4 +1,4 @@
-# Reto #2
+# Reto #2: 🏭 Fabrica los juguetes
 
 ## Dificultad: Facil
 

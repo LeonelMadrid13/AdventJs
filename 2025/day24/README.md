@@ -1,4 +1,4 @@
-# Reto #24
+# Reto #24: 🪞 Verifica si los árboles son espejos mágicos
 
 ## Dificultad: Media
 

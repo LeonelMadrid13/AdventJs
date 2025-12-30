@@ -1,4 +1,4 @@
-# Reto #18
+# Reto #18: 🎄 Luces en línea con diagonales
 
 ## Dificultad: Media
 

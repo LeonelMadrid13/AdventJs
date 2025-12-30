@@ -1,4 +1,4 @@
-# Reto #7
+# Reto #7: 🎄 Montando el árbol
 
 ## Dificultad: Media
 

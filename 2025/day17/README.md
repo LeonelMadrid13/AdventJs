@@ -1,4 +1,4 @@
-# Reto #17
+# Reto #17: 🎄 El panel de luces navideñas
 
 ## Dificultad: Facil
 

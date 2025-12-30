@@ -1,4 +1,4 @@
-# Reto #20
+# Reto #20: 🎁 El almacén vertical
 
 ## Dificultad: Facil
 

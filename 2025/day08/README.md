@@ -1,4 +1,4 @@
-# Reto #8
+# Reto #8: 🎁 Encuentra el juguete único
 
 ## Dificultad: Facil
 

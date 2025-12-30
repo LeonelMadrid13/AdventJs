@@ -1,4 +1,4 @@
-# Reto #6
+# Reto #6: 🧤 Emparejando guantes
 
 ## Dificultad: Facil
 

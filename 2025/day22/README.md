@@ -1,4 +1,4 @@
-# Reto #22
+# Reto #22: 🎄 El laberinto del trineo
 
 ## Dificultad: Dificil
 

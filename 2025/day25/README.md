@@ -1,4 +1,4 @@
-# Reto #25
+# Reto #25: 🪄 Ejecuta el lenguaje mágico
 
 ## Dificultad: Media
 
