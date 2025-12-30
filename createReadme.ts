@@ -109,7 +109,7 @@ function generateReadmeTable(year: number, challenges: Challenge[]): string {
     const num = challenge.number.toString().padStart(2, '0');
     const title = challenge.title.padEnd(46);
     const starsText = `**${challenge.stars}**`.padEnd(12);
-    const description = `[Show](./${year}/day${num})`;
+    const description = `[Show](./day${num})`;
     
     table += `|    ${num}     | ${title} |     ${challenge.difficulty}     |    ${starsText} | ${description.padEnd(20)} |\n`;
     totalStars += challenge.stars;
