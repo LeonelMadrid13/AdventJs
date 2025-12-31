@@ -49,13 +49,13 @@
 |    17     | Reto #17: 🎄 El panel de luces navideñas       |     🟢     |    **7**        | [Show](./day17)      |
 |    18     | Reto #18: 🎄 Luces en línea con diagonales     |     🟠     |    **7**        | [Show](./day18)      |
 |    19     | Reto #19: 🎄 El viaje secreto de Papá Noel     |     🟢     |    **5**        | [Show](./day19)      |
-|    20     | Reto #20: 🎁 El almacén vertical               |     🟢     |    **0**        | [Show](./day20)      |
-|    21     | Reto #21: 🤖 El robot de limpieza              |     🟠     |    **0**        | [Show](./day21)      |
-|    22     | Reto #22: 🎄 El laberinto del trineo           |     🔴     |    **0**        | [Show](./day22)      |
-|    23     | Reto #23: 🎁 Ruta de regalos                   |     🟠     |    **0**        | [Show](./day23)      |
-|    24     | Reto #24: 🪞 Verifica si los árboles son espejos mágicos |     🟠     |    **0**        | [Show](./day24)      |
-|    25     | Reto #25: 🪄 Ejecuta el lenguaje mágico        |     🟠     |    **0**        | [Show](./day25)      |
-| **Total** |                                                |   **/**    |    **140**    |        **/**         |
+|    20     | Reto #20: 🎁 El almacén vertical               |     🟢     |    **6**        | [Show](./day20)      |
+|    21     | Reto #21: 🤖 El robot de limpieza              |     🟠     |    **6**        | [Show](./day21)      |
+|    22     | Reto #22: 🎄 El laberinto del trineo           |     🔴     |    **6**        | [Show](./day22)      |
+|    23     | Reto #23: 🎁 Ruta de regalos                   |     🟠     |    **6**        | [Show](./day23)      |
+|    24     | Reto #24: 🪞 Verifica si los árboles son espejos mágicos |     🟠     |    **7**        | [Show](./day24)      |
+|    25     | Reto #25: 🪄 Ejecuta el lenguaje mágico        |     🟠     |    **5**        | [Show](./day25)      |
+| **Total** |                                                |   **/**    |    **176**    |        **/**         |
 
 
 <h2>
